@@ -74,7 +74,7 @@ class PasswordService {
 			
 			// remove eligable share users when using API
 			if ($arr[$row]['id'] == '0' && $api) {
-                unset($arr[$row]);
+				unset($arr[$row]);
 			}
 		}
 
